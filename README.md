@@ -42,7 +42,7 @@ Surplus Redistribution
 Environmental & Financial Impact
 
 The system helps answer:
-"How much food should we prepare, how much surplus do we have, and what impact can we avoid?"
+"How much food should we prepare, how much surplus do we have, and what impact can we avoid?" 
 
 ✨ Key Features
 📊 Demand Prediction
@@ -74,6 +74,7 @@ Money saved
 Carbon emissions avoided
 📈 Historical Data Visualization
 The dashboard provides a visualization of food preparation and meals served across the available 250-day dataset.
+
 🧠 Machine Learning Pipeline
 The demand prediction component uses historical food-service data.
 The model receives:
@@ -85,6 +86,7 @@ Predicted Meal Demand
 Categorical variables are encoded before being passed to the trained model.
 The trained model is stored as:
 demand_model.pkl
+
 🖥️ Dashboard
 FoodWise includes a Streamlit dashboard that provides:
 📅 Date selection
@@ -95,6 +97,7 @@ FoodWise includes a Streamlit dashboard that provides:
 🌱 Environmental impact
 💰 Financial impact
 📈 Historical data visualization
+
 Dashboard Flow
 Select Date
      ↓
